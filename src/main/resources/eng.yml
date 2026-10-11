@@ -1,0 +1,14 @@
+# RGuard English language pack
+messages:
+  alert: "&b&lRGuard &8» &f%player% &7sent suspicious &d%exploit_type% &7traffic and it was blocked. &8[&dLevel %vl%&8]"
+  kick: "&b&lRGuard\n\n&cThe connection verification failed.\n&7Detection: &f%exploit_type%\n&7Your connection was closed for security reasons."
+  no-permission: "&cYou do not have permission to use this RGuard action."
+  reload: "&aRGuard settings and the protection profile were reloaded."
+  alerts-enabled: "&aPersonal security alerts enabled."
+  alerts-disabled: "&cPersonal security alerts disabled."
+  player-only: "&cThis action can only be used by a player."
+  stats:
+    header: "&b&lRGuard &8» &fProtection status"
+    checks: "&7Active security checks: &f"
+    players: "&7Tracked players: &f"
+    runtime: "&7Runtime: &f"

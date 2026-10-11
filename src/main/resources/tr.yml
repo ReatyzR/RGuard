@@ -1,0 +1,14 @@
+# RGuard Türkçe dil paketi
+messages:
+  alert: "&b&lRGuard &8» &f%player% &7için şüpheli &d%exploit_type% &7trafiği durduruldu. &8[&dSeviye %vl%&8]"
+  kick: "&b&lRGuard\n\n&cGüvenlik doğrulaması başarısız oldu.\n&7Tespit: &f%exploit_type%\n&7Bağlantınız güvenlik nedeniyle kapatıldı."
+  no-permission: "&cBu RGuard işlemi için gerekli yetkiniz bulunmuyor."
+  reload: "&aRGuard ayarları yenilendi ve koruma profili tekrar yüklendi."
+  alerts-enabled: "&aKişisel uyarılar etkinleştirildi."
+  alerts-disabled: "&cKişisel uyarılar devre dışı bırakıldı."
+  player-only: "&cBu işlem yalnızca oyuncular tarafından kullanılabilir."
+  stats:
+    header: "&b&lRGuard &8» &fKoruma durumu"
+    checks: "&7Aktif güvenlik denetimleri: &f"
+    players: "&7İzlenen oyuncular: &f"
+    runtime: "&7Çalışma ortamı: &f"

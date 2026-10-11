@@ -1,0 +1,60 @@
+# RGuard 1.8.9 | ReatyzR
+# Tüm oyuncu bildirimleri ve koruma eşikleri bu dosyadan yönetilir.
+prefix: "&b&lRGuard &8»"
+
+language: "tr"
+
+settings:
+  broadcast-alerts: false
+  alert-permission: "rguard.alerts"
+  log-to-console: true
+  alert-cooldown-ms: 650
+
+punishment:
+  auto-kick: true
+  max-violations: 10
+  violation-reset-seconds: 20
+
+limits:
+  global:
+    max-packets-per-second: 500
+  payload:
+    max-bytes: 32767
+    max-channels-register: 12
+    max-register-bytes: 1024
+    max-frequency: 45
+  nbt:
+    max-depth: 6
+    max-tags: 300
+    max-list-elements: 120
+    max-string-length: 1024
+    max-book-pages: 50
+    max-book-page-length: 320
+    max-total-size-bytes: 24576
+  sign:
+    max-line-length: 384
+    max-json-depth: 5
+    max-packets-per-second: 10
+  movement:
+    max-pitch: 90.5
+    min-pitch: -90.5
+    max-coordinate: 30000000.0
+    max-delta-distance: 120.0
+    max-packets-per-second: 120
+  window:
+    max-window-id: 255
+    max-slot-id: 250
+    max-clicks-per-second: 50
+    max-transactions-per-second: 60
+    max-close-per-second: 25
+  rates:
+    keepalive: 12
+    client-status: 8
+    block-place: 50
+    block-dig: 60
+    entity-action: 40
+    use-entity: 45
+    vehicle-input: 35
+    client-settings: 8
+    resource-pack: 8
+    chat: 12

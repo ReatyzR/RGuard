@@ -1,0 +1,18 @@
+name: RGuard
+version: 1.8.9
+main: dev.reatyzr.rguard.RGuard
+author: ReatyzR
+api-version: 1.8
+description: RGuard 1.8.9 - Runtime protocol integrity and connection protection
+commands:
+  rguard:
+    description: RGuard control interface
+    permission: rguard.admin
+    aliases: [rg, anticrash]
+permissions:
+  rguard.admin:
+    description: Permission to manage the protection profile
+    default: op
+  rguard.alerts:
+    description: Permission to receive security notifications
+    default: op
